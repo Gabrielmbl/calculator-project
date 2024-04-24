@@ -1,0 +1,42 @@
+.digits {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80px;
+}
+
+.digitsRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+#numbersDiv {
+    flex-direction: row-reverse;
+}
+
+#operatorsDiv {
+    justify-content: center;
+}
+
+#digitsDiv {
+    display: flex;
+    margin-top: 4px;
+}
+
+#displayDiv {
+    height: 35px;
+    border: 1px solid black;
+}
+
+#calculator {
+    display: inline-block;
+    border: 1px solid black;
+}
+
+#numbersDiv {
+    justify-content: center
+}
+
+button {
+    width: 25px;
+    font-size: 20px;
+}
